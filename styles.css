@@ -89,8 +89,9 @@ html {
 
 .jumbotron {
   background-color: #fff;
-  margin-top: 30px;
+  /*margin-top: 30px;*/
   padding: 0;
+  margin: 0;
 }
 
 .what-is-everwell > h3 {
@@ -227,16 +228,12 @@ form, fieldset{margin:0px; padding:0; border:none;
 button{
 	color:#FFFFFF;
 	background-color:#3e4047;
+  height: 100%;
 }
 
-
-/*body
-	{
-		background: #101010;
-    color: #808080;
-		font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-	}*/
+.gallery-and-events {
+  background-color: #F9CE4A
+}
 
 	@media (min-width: 300px) {
 
@@ -390,7 +387,19 @@ button, input, textarea {
   padding: 40px;
 }
 
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 50%;
+      margin: auto;
+  }
+
 footer {
   background-color: #000;
   color: #fff;
+}
+
+
+.gallery-and-events-list {
+  display: inline;
+  width: 50%;
 }
