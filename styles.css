@@ -237,6 +237,12 @@ button{
 
 	@media (min-width: 300px) {
 
+.col-md-2 {
+	margin-top: -20px;
+	margin-bottom: -110px;
+}
+
+
   #HEY_HEY_LISTEN{
 
     /* Firefox */
@@ -351,7 +357,13 @@ button, input, textarea {
 
 }
 
+.col-md-1 {
+	margin-top: 150px;
+}
 
+.col-md-3 {
+	margin-top: 130px;
+}
 
 @media (min-width:768px) {
     .col-sm-1 {
