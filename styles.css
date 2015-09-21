@@ -1,0 +1,396 @@
+html {
+  font-family: "Century Gothic";
+  width: 100%;
+}
+
+
+.header-content > img {
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  position: relative;
+  width: 100%;
+}
+
+.header-content-description {
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  top: 50%;
+  left: auto;
+  text-align: center;
+}
+
+.what-is-everwell > h2 {
+  color: #000000;
+  text-align: center;
+  padding: 40px;
+}
+
+.header-content-description > h1 {
+  font: 3em Century Gothic;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-shadow: 3px 3px #888888;
+}
+
+.header-content-description > h3 {
+  font: 2em Century Gothic;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 3px 3px #888888;
+}
+
+
+
+.navbar-custom {
+  height: 60px;
+  background-color: black;
+  border-color: black;
+  opacity: 0.5;
+}
+
+.navbar .nav > li > a{
+  color: #fff;
+  font-size: 23px;
+  font-family: "Century Gothic";
+  font-weight: bold;
+  padding: 0.7em;
+  text-align: center;
+  padding-left: 23px;
+  padding-right: 23px;
+}
+
+.navbar .nav > li > a:hover {
+  color: yellow;
+}
+
+.navbar .nav > ul {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+}
+
+.jumbotron {
+  background-color: #fff;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.what-is-everwell > h3 {
+  color: #4EAAB0;
+  text-align: center;
+}
+
+.voluntary-insurance {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.voluntary-insurance > li {
+  display: inline;
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
+
+#is-different {
+  text-align: center;
+}
+
+.why-pasadena {
+  background-color: #4EAAB0;
+  padding: 40px;
+}
+
+.why-pasadena > h2 {
+  color: #fff;
+  text-align: center;
+}
+
+.about-videos {
+  max-width: 100%;
+  width: 320px;
+  height: 320px;
+  border: 5px solid #F9CE4A;
+  border-radius: 100%;
+}
+
+.old-town-video {
+}
+
+.office-video {
+}
+
+.blue-button-circle {
+	width: 80px;
+	height: 80px;
+	margin: auto;
+	top: 50px;
+	right: 50px;
+	bottom: 50px;
+	left: 50px;
+	background-color: #4EAAB0;
+	border-radius: 100%;
+	cursor: pointer;
+	position: absolute;
+	z-index: 5;
+}
+
+#play-triangle {
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 20px 0px 20px 40px;
+	position: absolute;
+	z-index: 7;
+	top: 30px;
+	right: 30px;
+	bottom: 30px;
+	left: 30px;
+  	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	border-left: 30px solid white;
+	margin: auto;
+}
+
+.play-triangle:focus {
+	outline: 0;
+	border: 1px solid hsl(210, 58%, 69%);
+	box-shadow: 0 0 0 3px hsla(210, 76%, 57%, 0.5);
+}
+
+
+/* ---- CONTACT US ----*/
+
+#Contact-text {
+    margin-top: 20px;
+    margin-bottom: 10px;
+	font-size: 24px;
+	text-align: center;
+}
+
+ #contact_bar {
+	width: 100%;
+	margin: auto;
+	font-family: Century Gothic;
+	}
+
+#Submission_Box{
+	width:110%;
+	padding-top: 2%;
+	font-size: 15px;
+}
+
+input, button{
+
+	display: block;
+	width:90%;
+	padding:8px;
+	font-family: Century Gothic;
+}
+
+button{
+	padding:6px 12px 8px;
+	text-transform:uppercase;
+	border:none;
+	cursor:pointer;
+}
+
+textarea{
+	width: 90%;
+	font-family: Century Gothic;
+	resize: none;
+}
+button:hover{
+	background-color: #e0e0e0;
+}
+
+form, fieldset{margin:0px; padding:0; border:none;
+}
+button{
+	color:#FFFFFF;
+	background-color:#3e4047;
+}
+
+
+/*body
+	{
+		background: #101010;
+    color: #808080;
+		font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+	}*/
+
+	@media (min-width: 300px) {
+
+  #HEY_HEY_LISTEN{
+
+    /* Firefox */
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+
+    /* Safari and Chrome */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+
+    /* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center;
+
+}
+
+  #Social_Media{
+
+    /* Firefox */
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+
+    /* Safari and Chrome */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+
+    /* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center;
+
+}
+	}
+
+
+@media (min-width: 768px) {
+  .container {
+    width: 700px;
+  }
+
+
+}
+@media (min-width: 992px) {
+  .container {
+    width: 900px;
+  }
+
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+
+}
+
+
+button, input, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.pre-scrollable {
+    max-height: 340px;
+    overflow-y: scroll;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width:768px) {
+    .container {
+    width: 750px;
+
+}
+}
+
+@media (min-width:992px) {
+    .container {
+    width: 970px;
+
+}
+
+}
+
+@media (min-width:1200px) {
+    .container {
+    width: 1170px;
+
+}
+
+
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+
+}
+.col-md-1, .col-md-2, .col-md-3, .col-sm-1 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+
+
+@media (min-width:768px) {
+    .col-sm-1 {
+    float: left;
+
+}
+
+.col-sm-1 {
+    width: 33.33333333%}
+
+
+
+}
+
+@media (min-width:992px) {
+    .col-md-1, .col-md-2, .col-md-3 {
+    float: middle;
+}
+
+.col-md-1 {
+    width: 23%}
+.col-md-3 {
+    width: 23%}
+.col-md-2 {
+    width: 53.5%}
+}
+
+.google-map {
+	display: absolute;
+}
+
+.contact-us {
+  padding: 40px;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+}
