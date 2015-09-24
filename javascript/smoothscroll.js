@@ -5,7 +5,7 @@ $(".scroll").click(function(event){
       if($(this.hash).offset().top > $(document).height()-$(window).height()){
            dest=$(document).height()-$(window).height();
       }else{
-           dest=$(this.hash).offset().top;
+           dest=$(this.hash).offset().top - 70;
       }
       //go to destination
       $('html,body').animate({scrollTop:dest}, 1000,'swing');

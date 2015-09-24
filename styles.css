@@ -26,7 +26,7 @@ html {
 .what-is-everwell > h2 {
   color: #000000;
   text-align: center;
-  padding: 40px;
+  padding: 0px;
 }
 
 .header-content-description > h1 {
@@ -89,9 +89,7 @@ html {
 
 .jumbotron {
   background-color: #fff;
-  /*margin-top: 30px;*/
-  padding: 0;
-  margin: 0;
+  margin-bottom: 0px;
 }
 
 .what-is-everwell > h3 {
@@ -117,12 +115,13 @@ html {
 
 .why-pasadena {
   background-color: #4EAAB0;
-  padding: 40px;
+  padding: 20px 0px 50px 0px;
 }
 
 .why-pasadena > h2 {
   color: #fff;
   text-align: center;
+
 }
 
 .about-videos {
@@ -404,12 +403,13 @@ footer {
 	background-color: #F9CE4A;
 	text-align: center;
 	vertical-align: middle;
-	padding: 25px;
-	padding-top: 50px;
+	/*padding: 25px;*/
+	/*padding-top: 50px;*/
 }
 
 .gallery-and-events > h2 {
   text-align: center;
+  padding: 0;
 }
 
 .events-list {
