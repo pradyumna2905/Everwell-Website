@@ -17,16 +17,22 @@ html {
 .header-content-description {
   position: absolute;
   text-align: center;
+  font-weight: bold;
   color: #fff;
-  top: 50%;
-  left: auto;
+  top: 45%;
+  left: 25%;
   text-align: center;
+  text-shadow: 2px 2px #525266;
 }
+
+
 
 .what-is-everwell > h2 {
   color: #000000;
   text-align: center;
-  padding: 0px;
+  padding-top: 0px;
+  margin-top: 0px;
+
 }
 
 .header-content-description > h1 {
@@ -47,7 +53,15 @@ html {
   text-shadow: 3px 3px #888888;
 }
 
-
+.btn {
+  box-shadow: 2px 2px #525266;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background: white;
+  height: 40px;
+  width: 200px;
+}
 
 .navbar-custom {
   height: 60px;
@@ -97,6 +111,10 @@ html {
   text-align: center;
 }
 
+.what-is-everwell-2 > h3 {
+  text-align: center;
+}
+
 .voluntary-insurance {
   margin-top: 30px;
   text-align: center;
@@ -104,8 +122,7 @@ html {
 
 .voluntary-insurance > li {
   display: inline;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding: 0px 50px 0px 50px;
 
 }
 
@@ -116,12 +133,25 @@ html {
 .why-pasadena {
   background-color: #4EAAB0;
   padding: 20px 0px 50px 0px;
+  height: auto;
 }
 
+.why-pasadena > ul {
+  padding: 0px 0px 50px 0px;
+}
 .why-pasadena > h2 {
   color: #fff;
   text-align: center;
+  margin-bottom: 50px;
+}
 
+.why-pasadena-videos {
+  text-align: center;
+}
+
+.why-pasadena-videos > li {
+  display: inline;
+  padding: 50px;
 }
 
 .about-videos {
@@ -403,8 +433,8 @@ footer {
 	background-color: #F9CE4A;
 	text-align: center;
 	vertical-align: middle;
-	/*padding: 25px;*/
-	/*padding-top: 50px;*/
+	padding: 25px;
+	padding-top: 50px;
 }
 
 .gallery-and-events > h2 {
@@ -435,12 +465,26 @@ footer {
 	height: 300px;
 	border: 5px solid black;
 	display: inline-block;
+	margin: 0;
+	text-align: center;
+	vertical-align: middle;
+	/*margin: 20px 20px 100px 20px;*/
+}
+
+.gallery-events-div {
+	/*width: 500px;
+	height: 300px;
+	border: 5px solid black;
+	display: inline-block;
 	margin: auto;
 	text-align: center;
 	vertical-align: middle;
-	margin: 20px 20px 100px 20px;
+	margin: 20px 20px 100px 20px;*/
+  border: 5px solid black;
 }
 
+
+
 .gallery-events-section-list {
-  display: block;
+  display: inline;
 }
