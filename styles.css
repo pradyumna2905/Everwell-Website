@@ -53,7 +53,7 @@ html {
   text-shadow: 3px 3px #888888;
 }
 
-.btn {
+.btn-find-out-more {
   box-shadow: 2px 2px #525266;
   font-weight: 700;
   letter-spacing: 1px;
@@ -566,11 +566,11 @@ footer {
 }
 
 .contentborder{
-  
+
   background-color: #4eaab0;
   border: 5px solid;
   border-radius: 10px;
-  border-color: #fdcc0a; 
+  border-color: #fdcc0a;
 }
 
 .contenttext{
@@ -613,6 +613,54 @@ footer {
 }
 
 
+.careers-section {
+  background-color: #F9CE4A;
+  margin-top: 0px;
+  padding: 20px 0px 50px 0px;
+  height: auto;
+}
 
+.careers-section > h2 {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 0px;
+}
 
+.open-positions {
+    text-align: center;
+}
 
+.open-positions > li {
+  display: inline;
+  /*padding: 50px 50px 100px 50px;*/
+}
+
+.open-positions > li > a {
+  margin: 0px 33px 0px 33px;
+}
+
+.btn-open-positions {
+  width: 420px;
+  height: 120px;
+  background: #fff;
+  border: 0px;
+}
+
+.btn-open-positions:hover {
+  background: #eeeeee;
+}
+
+.btn-open-positions:active {
+  background: #eeeeee;
+}
+
+.btn-open-positions > h4 {
+  color: #000;
+}
+
+.learn-more {
+  color: #000;
+  font-weight: bold;
+  position: relative;
+  bottom: 3px;
+}
