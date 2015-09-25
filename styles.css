@@ -488,3 +488,131 @@ footer {
 .gallery-events-section-list {
   display: inline;
 }
+
+/* Meet the Teams CSS */
+
+.modalbgcolor {
+  background-color: #4eaab0;
+}
+.rectangle2{
+  height:auto;
+  width:80%;
+  background:#000000;
+  position:center;
+  left:auto;
+  top:auto;
+  margin: auto;
+  font-family: 'Bitter', 'Trebuchet MS', Cambria;
+  z-index: 1;
+}
+
+.rectangle1{
+  height: auto;
+  width:80%;
+  background:#4eaab0;
+
+  border-radius: 15px;
+  margin: auto;
+  font-family: 'Bitter', 'Trebuchet MS', Cambria;
+  /* text-align: justify;*/
+}
+
+.team{
+  background-color:#000000;
+  overflow: visable;
+  padding: 0px;
+  margin: 0px;
+}
+
+.rdalign {
+  left:45%;
+  position: relative;
+}
+.lenzo {
+  font-family: 'Bitter', 'Trebuchet MS', Cambria;
+  font-size: 220%;
+  font-weight: bold;
+  position: relative;
+  color: #ffffff;
+}
+
+.regdir {
+  font-family: 'Bitter', 'Trebuchet MS', Cambria;
+  font-size: 180%;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.img-responsive {
+  color: #fff;
+  margin-top: -50%;
+  margin-left:.auto;
+  margin-right: 2%px;
+  overflow: visible;
+  float: left;
+
+}
+.description {
+  width: 100%;
+  /*-webkit-columns-count: 2;
+  -moz-column-count: 2;
+  column-count: 2; */
+  -webkit-columns: auto 2;
+  -moz-columns: auto 2;
+  columns: auto 2;
+  padding:3%;
+  font-weight: 900;
+  text-align: justify;
+}
+
+.contentborder{
+  
+  background-color: #4eaab0;
+  border: 5px solid;
+  border-radius: 10px;
+  border-color: #fdcc0a; 
+}
+
+.contenttext{
+  background-color: #4eaab0;
+  text-align: justify;
+  font-family: 'Bitter', 'Trebuchet MS', Cambria;
+  font-size: 100%;
+  color: black;
+}
+
+.teamname {
+  font-family: 'Bitter', 'Trebuchet MS', Cambria;
+  text-align: center;
+  font-size: 200%;
+  font-weight: bold;
+  color: black;
+}
+
+.teamleader {
+  font-family: 'Bitter', 'Trebuchet MS', Cambria;
+  font-size: 170%;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+#content {
+  text-align: center;
+}
+
+#content h1 {
+  font-size: 250%;
+  position: center;
+  display: inline-block;
+  height: 80px;
+  line-height: 60px;
+  margin-bottom: 0px;
+  font-family: Century Gothic, 'Bitter', 'Trebuchet MS', Cambria;
+  color: #FFFFFF;
+}
+
+
+
+
+
