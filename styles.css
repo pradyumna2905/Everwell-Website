@@ -6,7 +6,7 @@ html {
 html,
 body {
     width: 100%;
-    height: 70%;
+    height: 100%;
 }
 
 body {
@@ -20,16 +20,16 @@ body {
 }
 
 header {
-   
+
  position: relative;
     width: 100%;
     height: 100%;
-    background-image: url(images/header.jpg); 
+    background-image: url(images/header.jpg);
 	no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;	
+    -o-background-size: cover;
 }
 
 .header-content {
@@ -39,7 +39,7 @@ header {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   text-align:center;
-  color:white;  
+  color:white;
 }
 
 .what-is-everwell > h2 {
@@ -244,7 +244,7 @@ header {
   }
 }
 @media (min-width: 1230px) {
-  .gallerycontainer {   
+  .gallerycontainer {
     width: 1200px;
   }
 }
@@ -258,10 +258,10 @@ header {
 @media (min-width: 992px) {
   .gallery-event-section {
     float: left;
-  }  
+  }
   .gallery-event-section {
     width: 50%;
-  }  
+  }
 }
 
 .gallery-events-section {
@@ -573,7 +573,7 @@ footer {
   font-size: 220%;
   font-weight: bold;
   color: #ffffff;
-  padding-left:43%; 
+  padding-left:43%;
 }
 
 .regdir {
