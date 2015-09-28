@@ -21,14 +21,15 @@
 
   <link rel="stylesheet" type="text/css" href="./styles.css">
 	<!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
+    
+    <!-- Video popup -->
+    <link rel="stylesheet" href="css/magnific-popup.css"> 
+	 <script src="javascript/popupapp.js"></script> 
+     <script src="javascript/jquery.magnific-popup.js"></script>
+     
+    </head>
 
-  <div class="header-content">
-    <img src="http://s12.postimg.org/fgppq1xe5/header.jpg" />
-    <div class="header-content-description">
-        <h1>OLD TOWN PASADENA EVERWELL</h1>
-        <h3>HAVE YOUR CAREER TAKE FLIGHT WITH EVERWELL</h3></br>
-				<button  class="btn btn-find-out-more"> <a href="#navS" class="scroll"> Find Out More </a> </button>
-    </div>
+
 
   <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
@@ -57,75 +58,114 @@
 </nav>
 
 
-</head>
+
+
+<header>
+  <div class="header-content">
+    
+    <div class="header-content-description">
+        <h1>OLD TOWN PASADENA EVERWELL</h1>
+        <h3>HAVE YOUR CAREER TAKE FLIGHT WITH EVERWELL</h3>
+        <br><br>
+        <a href="#what-is-everwell" class="btn btn-primary">Find Out More</a>
+    </div>
+    </div>
+    </header>
+
 
 <body>
+
+  <!-- WHAT IS EVERWELL SECTION -->      
+
   <div class="jumbotron what-is-everwell" id="what-is-everwell">
-		<h2>WHAT IS EVERWELL?</h2>
-  	<h3>Voluntary Insurance</h3>
-    </div>
+			<h2>WHAT IS EVERWELL?</h2>
+    <h3>Voluntary Insurance</h3>
+    <div>
       <ul class="voluntary-insurance">
         <li><img src="./images/3.png" alt=""></li>
-        <li><img src="images/1.png"></li>
+        <li>  <a class="popup-youtube" href="https://www.youtube.com/watch?v=uwaCtLlVTdg"> <img src="images/1.png"> </a> </li>
         <li><img src="images/2.png" alt=""></li>
       </ul>
-		<div class="what-is-everwell-2">
-	    <h3>Also known as supplemental insurance,</h3>
-	    <h3 id="is-different">is different</h3>
-		</div>
-  </div><br />
+    </div>
+    <h3>Also known as supplemental insurance,</h3>
+    <h3 id="is-different">is different</h3>
+  </div>
+    
+
+<!-- WHY PASADENA SECTION -->
 
   <div class="jumbotron why-pasadena" id="why-pasadena">
     <h2>WHY PASADENA?</h2>
-      <ul class="why-pasadena-videos">
-        <li><img src="./images/video2.jpg" alt="" class="old-town-video about-videos"></li>
-        <li><img src="https://scontent.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10380277_1612242618995757_8845293108754294105_n.jpg?oh=f068334bd6a5b9af31760a60c81539cb&oe=56266C57" class="about-videos office-video"></li>
+    <div>
+      <ul class="voluntary-insurance">
+
+        <li><a class="popup-youtube" href="https://www.youtube.com/watch?v=uwaCtLlVTdg"><img src="./images/video2.jpg" class="old-town-video about-videos"></a></li>
+
+        <li><a class="popup-youtube" href="https://www.youtube.com/watch?v=uwaCtLlVTdg"><img src="./images/video1.jpg" class="about-videos office-video"></a></li>
+        <li></li>
       </ul>
-  </div>
+    </div>
+    </div>
+  </div> 
 
-	<div class="jumbotron gallery-and-events" id="gallery-and-events">
+	<!-- MY GALLERY AND EVENTS SECTION -->
+  
+  <div class="jumbotron gallery-and-events" id="gallery-and-events">
 		<h2>GALLERY AND EVENTS</h2>
-		<ul>
-			<li class="gallery-events-section-list">
-				<div class="gallery-events-section">
-					<div class="gallery-events-div ism-slider" id="gallery-div" data-play_type="loop" >
-		<ol>
-	    <li>
-		  <a class="example-image-link "id="gallery-div" href="ism/image/slides/slide1.jpg"
-		  data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
-	      <img class="example-image" src="ism/image/slides/slide1.jpg" alt=""
-		  width="100%" height="291">
-		  </a>
-	    </li>
-	    <li>
-			<a class="example-image-link " id="gallery-div"href="ism/image/slides/slide2.jpg"
-			data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
-	      <img class="example-image" src="ism/image/slides/slide2.jpg" alt=""
-		  width="100%" height="291">
-		  </a>
-	    </li>
-	    <li>
-			<a class="example-image-link "id="gallery-div" href="ism/image/slides/slide3.jpg"
-			data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
-			<img class="example-image" src="ism/image/slides/slide3.jpg" alt=""
-			width="100%" height="291">
-		  </a>
-	    </li>
-	    <li>
-			<a class="example-image-link "id="gallery-div" href="ism/image/slides/slide4.jpg"
-			data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
-	      <img class="example-image" src="ism/image/slides/slide4.jpg" alt="">
-		  </a>
-	    </li>
-		</ol>
-		</div>
-	</div>
-</li>
+          <div class="gallerycontainer">
+                <div class="row gallery">
+                <div class="gallery-event-section">
+                           
+                <li class="gallery-events-section-list">
+                	<div class="zoom-gallery">
+        
+                    <div class="gallery-events-div ism-slider zoom-gallery " id="gallery-div"
+                    data-play_type="loop" >
 
-<li class="gallery-events-section-list">
-	<div class="gallery-events">
 
-			<ul class="events-list">
+                            <ol>
+                            <li>
+                              <a class="example-image-link "id="gallery-div" href="ism/image/slides/slide1.jpg"
+                              data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+                              <img class="example-image" src="ism/image/slides/slide1.jpg" alt=""
+                              width="100%" height="291">
+                              </a>
+                            </li>
+                            <li>
+                                <a class="example-image-link " id="gallery-div"href="ism/image/slides/slide2.jpg"
+                                data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+                              <img class="example-image" src="ism/image/slides/slide2.jpg" alt=""
+                              width="100%" height="291">
+                              </a>
+                            </li>
+                            <li>
+                                <a class="example-image-link "id="gallery-div" href="ism/image/slides/slide3.jpg"
+                                data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+                                <img class="example-image" src="ism/image/slides/slide3.jpg" alt=""
+                                width="100%" height="291">
+                              </a>
+                            </li>
+                            <li>
+                                <a class="example-image-link "id="gallery-div" href="ism/image/slides/slide4.jpg"
+                                data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+                              <img class="example-image" src="ism/image/slides/slide4.jpg" alt="">
+                              </a>
+                            </li>	
+                            </ol>
+				</div>
+				</div>
+				
+                </li>
+					<br>
+					<br>
+                    <br>
+                    <br>
+				  </div>
+					
+                    
+                    <div class="gallery-event-section">
+                   
+					<ul class="events-list">
 				<li class="event">
 					<strong>WED JULY 8, 2015 - BOWLING BASH</strong>
 					<p class="event-description">ALL DISTRICTS ARE INVITED TO 300 ON FOOTHILL BLVD. IN ARCADIA FOR A FRIENDLY NIGHT OF BOWLING!<p/>
@@ -148,9 +188,16 @@
 				</li>
 			</li>
 			</ul>
-	</div>
-
-</div>
+					<br>
+					
+					
+				  </div>
+				</div>
+			</div>
+  
+  </div>
+  
+  
 
 
 	<script type="text/javascript" src="javascript/smoothscroll.js"> </script>

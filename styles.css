@@ -3,36 +3,49 @@ html {
   width: 100%;
 }
 
-
-.header-content > img {
-  background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  position: relative;
-  width: 100%;
+html,
+body {
+    width: 100%;
+    height: 100%;
 }
 
-.header-content-description {
-  position: absolute;
-  text-align: center;
-  font-weight: bold;
-  color: #fff;
-  top: 45%;
-  left: 25%;
-  text-align: center;
-  text-shadow: 2px 2px #525266;
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
 
+header {
+   
+ position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(images/header.jpg); 
+	no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;	
+}
+
+.header-content {
+ position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align:center;
+  color:white;  
+}
 
 .what-is-everwell > h2 {
   color: #000000;
   text-align: center;
-  padding-top: 0px;
-  margin-top: 0px;
-
+  padding: 0px;
 }
 
 .header-content-description > h1 {
@@ -111,10 +124,6 @@ html {
   text-align: center;
 }
 
-.what-is-everwell-2 > h3 {
-  text-align: center;
-}
-
 .voluntary-insurance {
   margin-top: 30px;
   text-align: center;
@@ -122,7 +131,8 @@ html {
 
 .voluntary-insurance > li {
   display: inline;
-  padding: 0px 50px 0px 50px;
+  padding-left: 25px;
+  padding-right: 25px;
 
 }
 
@@ -133,25 +143,12 @@ html {
 .why-pasadena {
   background-color: #4EAAB0;
   padding: 20px 0px 50px 0px;
-  height: auto;
 }
 
-.why-pasadena > ul {
-  padding: 0px 0px 50px 0px;
-}
 .why-pasadena > h2 {
   color: #fff;
   text-align: center;
-  margin-bottom: 50px;
-}
 
-.why-pasadena-videos {
-  text-align: center;
-}
-
-.why-pasadena-videos > li {
-  display: inline;
-  padding: 50px;
 }
 
 .about-videos {
@@ -167,6 +164,7 @@ html {
 
 .office-video {
 }
+
 
 .blue-button-circle {
 	width: 80px;
@@ -206,13 +204,122 @@ html {
 	box-shadow: 0 0 0 3px hsla(210, 76%, 57%, 0.5);
 }
 
+/* ---- GALLERY AND EVENT SECTION ----*/
 
-/* ---- CONTACT US ----*/
+.gallery-and-events {
+  background-color: #F9CE4A
+}
+.events-list {
+  width: 100%;
+  height: 291px;
+  overflow: auto;
+  margin-top: 0px;
+}
+
+.gallery{
+	margin-top: 50px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.gallerycontainer {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .gallerycontainer {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .gallerycontainer {
+    width: 970px;
+  }
+}
+@media (min-width: 1230px) {
+  .gallerycontainer {   
+    width: 1200px;
+  }
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+
+@media (min-width: 992px) {
+  .gallery-event-section {
+    float: left;
+  }  
+  .gallery-event-section {
+    width: 50%;
+  }  
+}
+
+.gallery-events-section {
+	width: 100%;
+	height: auto;
+	background-color: #F9CE4A;
+	text-align: center;
+	vertical-align: middle;
+	/*padding: 25px;*/
+	/*padding-top: 50px;*/
+}
+
+ .gallery-event-section {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.gallery-and-events > h2 {
+  text-align: center;
+  padding: 0;
+}
+
+.event {
+	width: 100%;
+	margin-left: -20px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	width: 90%;
+	text-align: left;
+	list-style-type: none;
+	border-bottom: 2px solid black;
+}
+
+.gallery-events {
+	width: 500px;
+	height: 300px;
+	border: 5px solid black;
+	display: inline-block;
+	margin: auto;
+	text-align: center;
+	vertical-align: middle;
+	margin: 20px 20px 100px 20px;
+}
+
+.gallery-events-section-list {
+  display: block;
+}
+
+
+
+/* ---- CONTACT US SECTION ----*/
 
 #Contact-text {
     margin-top: 20px;
     margin-bottom: 10px;
-	font-size: 24px;
+	font-size: 28px;
 	text-align: center;
 }
 
@@ -225,7 +332,7 @@ html {
 #Submission_Box{
 	width:110%;
 	padding-top: 2%;
-	font-size: 15px;
+	font-size: 17px;
 }
 
 input, button{
@@ -255,16 +362,20 @@ button:hover{
 form, fieldset{margin:0px; padding:0; border:none;
 }
 button{
-	color:#FFFFFF;
-	background-color:#3e4047;
-  height: 100%;
+color:#FFFFFF;
+background-color:#3e4047;
+ height: 100%;
 }
 
-.gallery-and-events {
-  background-color: #F9CE4A
-}
+
 
 	@media (min-width: 300px) {
+
+.col-md-2 {
+	margin-top: -20px;
+	margin-bottom: -110px;
+}
+
 
   #HEY_HEY_LISTEN{
 
@@ -282,10 +393,13 @@ button{
     display:box;
     box-pack:center;
     box-align:center;
+	font-size:18px;
 
 }
 
   #Social_Media{
+
+font-size:18px;
 
     /* Firefox */
     display:-moz-box;
@@ -310,8 +424,6 @@ button{
   .container {
     width: 700px;
   }
-
-
 }
 @media (min-width: 992px) {
   .container {
@@ -323,9 +435,7 @@ button{
   .container {
     width: 1000px;
   }
-
 }
-
 
 button, input, textarea {
     font-family: inherit;
@@ -346,25 +456,19 @@ button, input, textarea {
 @media (min-width:768px) {
     .container {
     width: 750px;
-
 }
 }
 
 @media (min-width:992px) {
     .container {
     width: 970px;
-
 }
-
 }
 
 @media (min-width:1200px) {
     .container {
     width: 1170px;
-
 }
-
-
 }
 
 .row {
@@ -380,19 +484,20 @@ button, input, textarea {
 
 }
 
+.col-md-1 {
+	margin-top: 150px;
+}
 
+.col-md-3 {
+	margin-top: 130px;
+}
 
 @media (min-width:768px) {
     .col-sm-1 {
     float: left;
-
 }
-
 .col-sm-1 {
     width: 33.33333333%}
-
-
-
 }
 
 @media (min-width:992px) {
@@ -427,67 +532,6 @@ footer {
   color: #fff;
 }
 
-.gallery-events-section {
-	width: 100%;
-	height: auto;
-	background-color: #F9CE4A;
-	text-align: center;
-	vertical-align: middle;
-	padding: 25px;
-	padding-top: 50px;
-}
-
-.gallery-and-events > h2 {
-  text-align: center;
-  padding: 0;
-}
-
-.events-list {
-  width: 100%;
-  height: 291px;
-  overflow: auto;
-  margin-top: 0px;
-}
-
-.event {
-	width: 100%;
-	margin-left: -20px;
-	margin-top: 10px;
-	margin-bottom: 5px;
-	width: 90%;
-	text-align: left;
-	list-style-type: none;
-	border-bottom: 2px solid black;
-}
-
-.gallery-events {
-	width: 500px;
-	height: 300px;
-	border: 5px solid black;
-	display: inline-block;
-	margin: 0;
-	text-align: center;
-	vertical-align: middle;
-	/*margin: 20px 20px 100px 20px;*/
-}
-
-.gallery-events-div {
-	/*width: 500px;
-	height: 300px;
-	border: 5px solid black;
-	display: inline-block;
-	margin: auto;
-	text-align: center;
-	vertical-align: middle;
-	margin: 20px 20px 100px 20px;*/
-  border: 5px solid black;
-}
-
-
-
-.gallery-events-section-list {
-  display: inline;
-}
 
 /* Meet the Teams CSS */
 
@@ -524,16 +568,12 @@ footer {
   margin: 0px;
 }
 
-.rdalign {
-  left:45%;
-  position: relative;
-}
 .lenzo {
   font-family: 'Bitter', 'Trebuchet MS', Cambria;
   font-size: 220%;
   font-weight: bold;
-  position: relative;
   color: #ffffff;
+  padding-left:43%; 
 }
 
 .regdir {
@@ -541,6 +581,7 @@ footer {
   font-size: 180%;
   font-weight: normal;
   color: #ffffff;
+  padding-left:44%;
 }
 
 .img-responsive {
