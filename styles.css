@@ -554,7 +554,6 @@ footer {
   height: auto;
   width:80%;
   background:#4eaab0;
-
   border-radius: 15px;
   margin: auto;
   font-family: 'Bitter', 'Trebuchet MS', Cambria;
@@ -566,6 +565,7 @@ footer {
   overflow: visable;
   padding: 0px;
   margin: 0px;
+  padding-bottom: 3%;
 }
 
 .lenzo {
