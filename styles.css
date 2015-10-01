@@ -19,6 +19,66 @@ body {
     vertical-align: middle;
 }
 
+html,
+body {
+    height: 100%;
+}
+
+/* Splash page carousel */
+
+.carousel {
+    height: 85%;
+}
+
+.carousel-caption img {
+    width: 50%;
+    height:auto;
+    }
+
+.item,
+.active,
+.carousel-inner {
+    height: 100%;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.carousel-caption > h3 {
+  font: FreesiaUPC;
+}
+
+.carousel-caption > h1 {
+  font: FreesiaUPC;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-shadow: 3px 3px #888888;
+}
+
+.carousel-caption > .btn {
+   font-size: 13px;
+  font-weight: 700;
+  text-align:center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+ 
+  background:rgba(0, 0, 0, .75);
+  height: auto;
+  width: auto;
+   border: 2px solid rgba(255,255,255,.5);
+}
+
+
+/* Splash page carousel 
 header {
 
  position: relative;
@@ -42,6 +102,8 @@ header {
   color:white;
 }
 
+*/
+
 .what-is-everwell > h2 {
   color: #000000;
   text-align: center;
@@ -64,16 +126,6 @@ header {
   text-transform: uppercase;
   font-weight: 700;
   text-shadow: 3px 3px #888888;
-}
-
-.btn-find-out-more {
-  box-shadow: 2px 2px #525266;
-  font-weight: 700;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  background: white;
-  height: 40px;
-  width: 200px;
 }
 
 .navbar-custom {
