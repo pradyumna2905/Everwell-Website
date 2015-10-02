@@ -586,6 +586,78 @@ footer {
 
 
 /* Meet the Teams CSS */
+/* New Carousel and card CSS */
+.teamslider{
+		width: 850px;
+		height: 256px;
+		margin: 10px auto;
+		background: transparent;
+	}
+	.teamslider img{
+		position: center;
+	}
+	
+	#mainwrapper {
+	font: 10pt normal Arial, sans-serif;
+	height: auto;
+	text-align: center;
+
+}
+
+	#mainwrapper .box {
+		border: 2px solid #fff;
+		cursor: pointer;
+		height: 256px;
+		float: left;
+
+		position: relative;
+		overflow: hidden;
+		width: 256px;
+			-webkit-box-shadow: 1px 1px 1px 1px #ccc;
+			-moz-box-shadow: 1px 1px 1px 1px #ccc;
+			box-shadow: 1px 1px 1px 1px #ccc;
+	}
+
+
+
+	#mainwrapper .box .caption {
+		background-color: #585858;
+		position: absolute;
+		color: #fff;
+		z-index: 100;
+			-webkit-transition: all 500ms ease-out;
+			-moz-transition: all 500ms ease-out;
+			-o-transition: all 500ms ease-out;
+			-ms-transition: all 500ms ease-out;	
+			transition: all 500ms ease-out;
+		left: 0;
+	}
+	
+	#mainwrapper .box .simple-caption {
+		height: 250px;
+		width: 256px;
+		display: block;
+		bottom: -200px;
+		line-height: 25pt;
+		text-align: center;
+	}
+
+	#mainwrapper .box:hover .simple-caption {
+		-moz-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		opacity: 1;
+		transform: translateY(-50%);
+	}
+    #arrow{
+		margin-left: 43%;
+	}
+	
+	#team_titles{
+	font: 12pt normal Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	}
 
 .modalbgcolor {
   background-color: #4eaab0;
