@@ -70,7 +70,7 @@ body {
   text-align:center;
   letter-spacing: 2px;
   text-transform: uppercase;
- 
+
   background:rgba(0, 0, 0, .75);
   height: auto;
   width: auto;
@@ -78,7 +78,7 @@ body {
 }
 
 
-/* Splash page carousel 
+/* Splash page carousel
 header {
 
  position: relative;
@@ -369,7 +369,7 @@ header {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
-  
+
 }
 .gallery-event-section > h2 {
   text-align: center;
@@ -422,7 +422,7 @@ header {
 	.teamslider img{
 		position: center;
 	}
-	
+
 	#mainwrapper {
 	font: 10pt normal Arial, sans-serif;
 	height: auto;
@@ -454,11 +454,11 @@ header {
 			-webkit-transition: all 500ms ease-out;
 			-moz-transition: all 500ms ease-out;
 			-o-transition: all 500ms ease-out;
-			-ms-transition: all 500ms ease-out;	
+			-ms-transition: all 500ms ease-out;
 			transition: all 500ms ease-out;
 		left: 0;
 	}
-	
+
 	#mainwrapper .box .simple-caption {
 		height: 250px;
 		width: 256px;
@@ -478,7 +478,7 @@ header {
     #arrow{
 		margin-left: 43%;
 	}
-	
+
 	#team_titles{
 	font: 12pt normal Arial, sans-serif;
 	text-transform: uppercase;
@@ -490,7 +490,7 @@ header {
 }
 .rectangle2{
   height:auto;
-  width:80%;
+  width:90%;
   background:#000000;
   position:center;
   left:auto;
@@ -672,24 +672,24 @@ header {
 		font-weight: bold;
 		color: white;
 	}
-	
+
 	#address_table{
 		background-color: #333333;
 		padding-left: 25%;
 	}
-	
+
 	#address_table td{
 		background-color: #333333;
 		font: 14pt normal Arial, sans-serif;
 		font-weight: bold;
 		color: white;
 	}
-	
+
 	#form_table{
 		background-color: #333333;
 	    font: 14pt normal Arial, sans-serif;
 		padding: 5px;
-	
+
 	}
 	#contact-area {
 		width: 100%;
@@ -708,7 +708,7 @@ header {
 		background-color: #333333;
 		padding-right: 25%;
 	}
-	
+
 	#social_media_titles {
 		background-color: #333333;
 		font-weight: bold;
@@ -717,7 +717,7 @@ header {
 		font: 14pt normal Arial, sans-serif;
 		text-transform: uppercase;
 	}
-	
+
 	footer{
 	background-color: #333333;
 	}
@@ -725,4 +725,3 @@ header {
 .google-map {
 	display: absolute;
 }
-
