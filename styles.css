@@ -496,6 +496,7 @@ header {
   left:auto;
   top:auto;
   margin: auto;
+  margin-top:23%;
   font-family: 'Bitter', 'Trebuchet MS', Cambria;
   z-index: 1;
 }
@@ -543,25 +544,25 @@ header {
 
 .lenzo {
   font-family: 'Bitter', 'Trebuchet MS', Cambria;
-  font-size: 220%;
+  font-size: 225%;
   font-weight: bold;
   color: #ffffff;
   padding-left:43%;
-  word-spacing: 13px;
+  word-spacing: 19px;
 }
 
 .regdir {
   font-family: 'Bitter', 'Trebuchet MS', Cambria;
-  font-size: 180%;
+  font-size: 185%;
   font-weight: normal;
   color: #ffffff;
   padding-left:44%;
-  word-spacing: 5px;
+  word-spacing: 9px;
 }
 
 .img-responsive {
   color: #fff;
-  margin-top: -40%;
+  margin-top: -45%;
   margin-left: 22%;
   overflow: visible;
   /*float: left;*/
