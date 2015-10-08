@@ -490,7 +490,7 @@ header {
 }
 .rectangle2{
   height:auto;
-  width:80%;
+  width:90%;
   background:#000000;
   position:center;
   left:auto;
@@ -502,7 +502,7 @@ header {
 
 .rectangle1{
   height: auto;
-  width:80%;
+  width:88%;
   background:white;
   border-radius: 15px;
   margin: auto;
@@ -535,7 +535,7 @@ header {
   line-height: 200%;
   width:68%;
   margin-left: 35%;
-  margin-top: -42%;
+  margin-top: -45%;
   letter-spacing: 2px;
 
 }
