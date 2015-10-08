@@ -502,10 +502,11 @@ header {
 
 .rectangle1{
   height: auto;
-  width:88%;
+  width:90%;
   background:white;
-  border-radius: 15px;
+  border-radius: 0px;
   margin: auto;
+  margin-bottom: 15%;
   font-family: 'Bitter', 'Trebuchet MS', Cambria;
   /* text-align: justify;*/
 }
@@ -590,6 +591,7 @@ header {
   padding:3%;
   font-weight: 900;
   height: auto;
+  margin-bottom: -4%;
   /*text-align: justify;*/
 }
 
