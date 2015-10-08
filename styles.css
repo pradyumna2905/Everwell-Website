@@ -569,11 +569,11 @@ header {
 .description1{
   text-align: center;
     font-size: 14px;
-    width: 42%;
+    width: 38%;
 
     /* display: inline-block; */
     margin-top: initial;
-    margin-left: -9%;
+    margin-left: -4%;
 	word-spacing: 15px;
 	letter-spacing: 3px;
 
