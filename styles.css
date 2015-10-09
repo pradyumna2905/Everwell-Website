@@ -573,6 +573,27 @@ header {
   word-spacing: 9px;
 }
 
+.business-image {
+  height: 400px;
+  position: relative;
+}
+
+.business-text > h2 {
+  position: absolute;
+    color: #fff;
+}
+
+.business-image > img {
+  position: absolute;
+  height: 400px;
+  width: 100%;
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+}
+
 .img-responsive {
   color: #fff;
   margin-top: -45%;
