@@ -588,9 +588,11 @@ header {
   position: relative;
 }
 
-.business-text > h2 {
-  position: absolute;
+.business-text > h1{
+    position: relative;
     color: #fff;
+	z-index: 1000;
+	font-weight: bold;
 }
 
 .business-image > img {
@@ -602,6 +604,7 @@ header {
   -o-filter: blur(2px);
   -ms-filter: blur(2px);
   filter: blur(2px);
+  z-index: 500;
 }
 
 .img-responsive {
