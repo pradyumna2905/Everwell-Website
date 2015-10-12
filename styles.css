@@ -177,15 +177,37 @@ header {
 }
 
 .voluntary-insurance {
-  margin-top: 30px;
   text-align: center;
+  border: 3px solid #7878FF;
+  border-radius: 10px 10px 10px 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 25%;
+  margin-left: 25%;
+  width: 50%;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .voluntary-insurance > li {
   display: inline;
   padding-left: 25px;
   padding-right: 25px;
+}
 
+.team-dialog{
+  background: #C8C8C8 ;
+  padding: 10px 10px;
+  text-align: center;
+  max-width: 800px;
+  margin: 40px auto;
+  position: relative; 
+}
+
+.no-focus-border:focus{
+  border: transparent;
+  outline: 0 none;
 }
 
 #is-different {
