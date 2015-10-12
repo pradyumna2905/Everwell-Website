@@ -542,16 +542,20 @@ header {
   padding: 0px;
   margin: 0px;
   padding-bottom: 3%;
+
 }
 
 
 
 .para2{
  text-align: justify;
-font-size: 12px;
-word-spacing: 6px;
-letter-spacing: 3px;
+ font-size: 12px;
+ word-spacing: 6px;
+ letter-spacing: 3px;
  line-height: 170%;
+ padding-right:12px;
+ padding-bottom:10px;
+ padding-top: 3px;
 }
 
 .lenzo {
@@ -561,6 +565,7 @@ letter-spacing: 3px;
     color: #ffffff;
     padding-left: 38%;
 	word-spacing: 19px;
+  padding-top:15px;
 
 }
 
