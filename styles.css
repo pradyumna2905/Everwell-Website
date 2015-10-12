@@ -197,7 +197,7 @@ header {
 #container1 {
     position: relative;
     display: inline-block;
-    margin:50px 150px 5px 190px;
+  
 }
 
 #container1 * {
@@ -208,7 +208,6 @@ header {
 #image {
     z-index: 9;
     text-align: center;
-    border: 1px solid blue;
     opacity: 0.6;
 }
 #play {
@@ -238,13 +237,16 @@ header {
 }
 
 .about-videos {
-  max-width: 100%;
   width: 220px;
   height: 220px;
-  border: 5px solid #F9CE4A;
+  border: 1px solid blue;
   border-radius: 100%;
 }
-
+ .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+   width: 100%;
+   height:292px;
+  }
 .old-town-video {
 }
 
