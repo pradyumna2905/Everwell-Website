@@ -534,6 +534,7 @@ header {
     font-family: 'Bitter', 'Trebuchet MS', Cambria;
     z-index: 5;
     text-align: justify;
+    margin-bottom: 7%;
 }
 
 .team{
@@ -553,30 +554,50 @@ header {
  word-spacing: 6px;
  letter-spacing: 3px;
  line-height: 170%;
- padding-right:12px;
+ padding-right:15px;
  padding-bottom:10px;
  padding-top: 3px;
 }
 
-.lenzo {
-  font-family: 'Bitter', 'Trebuchet MS', Cambria;
-    font-size: 225%;
+.lenzo1{
+   font-family: 'Bitter', 'Trebuchet MS', Cambria;
+   font-size: 185%;
+   font-weight: bold;
+   text-align: right;
+   letter-spacing: 9px;
+   color: #ffffff;
+}
+
+
+.lenzo2{
+    font-family: 'Bitter', 'Trebuchet MS', Cambria;
+    font-size: 185%;
     font-weight: bold;
+    text-align: left;
+	letter-spacing: 9px;
+  color: #ffffff;
+ }
+
+
+ .regdir1{
+    font-family: 'Bitter', 'Trebuchet MS', Cambria;
+    font-size: 125%;
+    font-weight: normal;
+    letter-spacing: 9px;
+    text-align:right;
     color: #ffffff;
-    padding-left: 38%;
-	word-spacing: 19px;
-  padding-top:15px;
+ }
 
-}
 
-.regdir {
-  font-family: 'Bitter', 'Trebuchet MS', Cambria;
-      font-size: 185%;
-      font-weight: normal;
-      color: #ffffff;
-      padding-left: 38%;
-  	word-spacing: 9px;
-}
+ .regdir2{
+    font-family: 'Bitter', 'Trebuchet MS', Cambria;
+    font-size: 125%;
+    font-weight: normal;
+    letter-spacing: 9px;
+    text-align: left;
+    color: #ffffff;
+ }
+
 
 .business-image {
   height: 400px;
@@ -604,10 +625,8 @@ header {
 
 .img-responsive {
    color: #fff;
-    margin-top: -45%;
-    margin-left: 12%;
-    overflow: visible;
-    z-index: 5;
+   overflow: visible;
+   z-index: 5;
 }
 
 .para1{
@@ -615,6 +634,7 @@ header {
     font-size: 14px;
 	  word-spacing: 5px;
 	  letter-spacing: 1px;
+    padding-top: 3px;
 }
 
 
