@@ -46,7 +46,7 @@
 
 
 
-  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <nav class="navbar navbar-inverse navbar-fixed-top navbar-custom">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -130,7 +130,23 @@
         <a class="right carousel-control" href="#myCarousel" data-slide="next">
             <span class="icon-next"></span>
         </a>
-
+				<script>
+				$(document).ready(function(){
+					   var scroll_start = 0;
+					   var startchange = $('#startchange');
+					   var offset = startchange.offset();
+					    if (startchange.length){
+					   $(document).scroll(function() {
+					      scroll_start = $(this).scrollTop();
+					      if(scroll_start > offset.top) {
+					          $(".navbar-custom").css('background-color', 'black');
+					       } else {
+					          $('.navbar-custom').css('background-color', 'transparent');
+					       }
+					   });
+					    }
+					});
+					</script>
     </header>
 
 
@@ -138,7 +154,7 @@
 
   <!-- WHAT IS EVERWELL SECTION -->
 
-  <div class="jumbotron what-is-everwell" id="what-is-everwell">
+  <span id="startchange"><div class="jumbotron what-is-everwell" id="what-is-everwell"></span>
 			<h2>WHAT IS EVERWELL?</h2>
     <h3>Voluntary Insurance</h3>
     <div>
